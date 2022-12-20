@@ -1,0 +1,738 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A0C851D295241CC0046A669 /* MiniHooplaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C851C295241CC0046A669 /* MiniHooplaApp.swift */; };
+		2A0C851F295241CC0046A669 /* MovieCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C851E295241CC0046A669 /* MovieCollection.swift */; };
+		2A0C8521295241CE0046A669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C8520295241CE0046A669 /* Assets.xcassets */; };
+		2A0C8524295241CE0046A669 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C8523295241CE0046A669 /* Preview Assets.xcassets */; };
+		2A0C854B295242E00046A669 /* NetworkInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C854A295242E00046A669 /* NetworkInterfaces.swift */; };
+		2A0C854C295242E00046A669 /* NetworkInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C854A295242E00046A669 /* NetworkInterfaces.swift */; };
+		2A0C854E295243080046A669 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C854D295243080046A669 /* NetworkSession.swift */; };
+		2A0C854F295243080046A669 /* NetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C854D295243080046A669 /* NetworkSession.swift */; };
+		2A0C8551295243460046A669 /* MoviesProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8550295243460046A669 /* MoviesProcessor.swift */; };
+		2A0C8552295243460046A669 /* MoviesProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8550295243460046A669 /* MoviesProcessor.swift */; };
+		2A0C8554295243850046A669 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8553295243850046A669 /* Movie.swift */; };
+		2A0C8555295243850046A669 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8553295243850046A669 /* Movie.swift */; };
+		2A0C8559295244B50046A669 /* ImageRepoInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8558295244B50046A669 /* ImageRepoInterfaces.swift */; };
+		2A0C855A295244B50046A669 /* ImageRepoInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8558295244B50046A669 /* ImageRepoInterfaces.swift */; };
+		2A0C855C295244D90046A669 /* ImageRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C855B295244D90046A669 /* ImageRepo.swift */; };
+		2A0C855D295244D90046A669 /* ImageRepo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C855B295244D90046A669 /* ImageRepo.swift */; };
+		2A0C855F2952458F0046A669 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C855E2952458F0046A669 /* Constants.swift */; };
+		2A0C85602952458F0046A669 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C855E2952458F0046A669 /* Constants.swift */; };
+		2A0C85632952463E0046A669 /* URLComponent+APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C85622952463E0046A669 /* URLComponent+APIBuilder.swift */; };
+		2A0C85642952463E0046A669 /* URLComponent+APIBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C85622952463E0046A669 /* URLComponent+APIBuilder.swift */; };
+		2A0C8566295249CB0046A669 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8565295249CB0046A669 /* AppState.swift */; };
+		2A0C8567295249CB0046A669 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8565295249CB0046A669 /* AppState.swift */; };
+		2A0C8569295249FA0046A669 /* AlertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8568295249FA0046A669 /* AlertDetails.swift */; };
+		2A0C856A295249FA0046A669 /* AlertDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8568295249FA0046A669 /* AlertDetails.swift */; };
+		2A0C856D29524A3F0046A669 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C856C29524A3F0046A669 /* SpinnerView.swift */; };
+		2A0C856E29524A3F0046A669 /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C856C29524A3F0046A669 /* SpinnerView.swift */; };
+		2A0C857029524CB90046A669 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C856F29524CB90046A669 /* MovieCell.swift */; };
+		2A0C857129524CB90046A669 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C856F29524CB90046A669 /* MovieCell.swift */; };
+		2A0C8573295252890046A669 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8572295252890046A669 /* MovieDetails.swift */; };
+		2A0C8574295252890046A669 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8572295252890046A669 /* MovieDetails.swift */; };
+		2A0C8576295252D30046A669 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8575295252D30046A669 /* MovieDetail.swift */; };
+		2A0C8577295252D30046A669 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C8575295252D30046A669 /* MovieDetail.swift */; };
+		2A0C857929525B650046A669 /* MockNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C857829525B650046A669 /* MockNetworkSession.swift */; };
+		2A0C857A29525B650046A669 /* MockNetworkSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C857829525B650046A669 /* MockNetworkSession.swift */; };
+		2A0C857C29525DC90046A669 /* TestMoviesProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0C857B29525DC90046A669 /* TestMoviesProcessor.swift */; };
+		2A0C857E295265280046A669 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C857D295265280046A669 /* README.md */; };
+		2A0C857F295265280046A669 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C857D295265280046A669 /* README.md */; };
+		3AF0770410A5E580A2C10FF9 /* libPods-MiniHoopla.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB0224CAB388C2DD23D626FF /* libPods-MiniHoopla.a */; };
+		72B8FF39154521FDBF57F904 /* libPods-MiniHoopla-MiniHooplaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBC00622CBA34BF2DBC9511D /* libPods-MiniHoopla-MiniHooplaTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A0C852A295241CF0046A669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A0C8511295241CC0046A669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A0C8518295241CC0046A669;
+			remoteInfo = MiniHoopla;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A0C8519295241CC0046A669 /* MiniHoopla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniHoopla.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0C851C295241CC0046A669 /* MiniHooplaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniHooplaApp.swift; sourceTree = "<group>"; };
+		2A0C851E295241CC0046A669 /* MovieCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCollection.swift; sourceTree = "<group>"; };
+		2A0C8520295241CE0046A669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A0C8523295241CE0046A669 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A0C8529295241CF0046A669 /* MiniHooplaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniHooplaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A0C854A295242E00046A669 /* NetworkInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterfaces.swift; sourceTree = "<group>"; };
+		2A0C854D295243080046A669 /* NetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSession.swift; sourceTree = "<group>"; };
+		2A0C8550295243460046A669 /* MoviesProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesProcessor.swift; sourceTree = "<group>"; };
+		2A0C8553295243850046A669 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		2A0C8558295244B50046A669 /* ImageRepoInterfaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepoInterfaces.swift; sourceTree = "<group>"; };
+		2A0C855B295244D90046A669 /* ImageRepo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageRepo.swift; sourceTree = "<group>"; };
+		2A0C855E2952458F0046A669 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2A0C85622952463E0046A669 /* URLComponent+APIBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLComponent+APIBuilder.swift"; sourceTree = "<group>"; };
+		2A0C8565295249CB0046A669 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		2A0C8568295249FA0046A669 /* AlertDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDetails.swift; sourceTree = "<group>"; };
+		2A0C856C29524A3F0046A669 /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		2A0C856F29524CB90046A669 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		2A0C8572295252890046A669 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
+		2A0C8575295252D30046A669 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
+		2A0C857829525B650046A669 /* MockNetworkSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkSession.swift; sourceTree = "<group>"; };
+		2A0C857B29525DC90046A669 /* TestMoviesProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMoviesProcessor.swift; sourceTree = "<group>"; };
+		2A0C857D295265280046A669 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		61A65391313B95E41EEA7DEF /* Pods-MiniHoopla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniHoopla.debug.xcconfig"; path = "Target Support Files/Pods-MiniHoopla/Pods-MiniHoopla.debug.xcconfig"; sourceTree = "<group>"; };
+		7DE0F8D39239CD1694BE4247 /* Pods-MiniHoopla-MiniHooplaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniHoopla-MiniHooplaTests.release.xcconfig"; path = "Target Support Files/Pods-MiniHoopla-MiniHooplaTests/Pods-MiniHoopla-MiniHooplaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C50309E7EA0929D64D6B6DA /* Pods-MiniHoopla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniHoopla.release.xcconfig"; path = "Target Support Files/Pods-MiniHoopla/Pods-MiniHoopla.release.xcconfig"; sourceTree = "<group>"; };
+		CFBA5E24F90FF80120748BA3 /* Pods-MiniHoopla-MiniHooplaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiniHoopla-MiniHooplaTests.debug.xcconfig"; path = "Target Support Files/Pods-MiniHoopla-MiniHooplaTests/Pods-MiniHoopla-MiniHooplaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB0224CAB388C2DD23D626FF /* libPods-MiniHoopla.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniHoopla.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBC00622CBA34BF2DBC9511D /* libPods-MiniHoopla-MiniHooplaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MiniHoopla-MiniHooplaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0C8516295241CC0046A669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF0770410A5E580A2C10FF9 /* libPods-MiniHoopla.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0C8526295241CF0046A669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B8FF39154521FDBF57F904 /* libPods-MiniHoopla-MiniHooplaTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A0C8510295241CC0046A669 = {
+			isa = PBXGroup;
+			children = (
+				2A0C857D295265280046A669 /* README.md */,
+				2A0C851B295241CC0046A669 /* MiniHoopla */,
+				2A0C852C295241CF0046A669 /* MiniHooplaTests */,
+				2A0C851A295241CC0046A669 /* Products */,
+				2D752F266E23F8187AA0BD5D /* Pods */,
+				7401EA06CD73393930041E05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A0C851A295241CC0046A669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C8519295241CC0046A669 /* MiniHoopla.app */,
+				2A0C8529295241CF0046A669 /* MiniHooplaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A0C851B295241CC0046A669 /* MiniHoopla */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C851C295241CC0046A669 /* MiniHooplaApp.swift */,
+				2A0C855E2952458F0046A669 /* Constants.swift */,
+				2A0C8546295241DE0046A669 /* Model */,
+				2A0C8547295241E40046A669 /* View */,
+				2A0C8548295241E90046A669 /* ViewModel */,
+				2A0C8561295246140046A669 /* Extension */,
+				2A0C8549295242CD0046A669 /* API */,
+				2A0C85562952447C0046A669 /* Repo */,
+				2A0C8520295241CE0046A669 /* Assets.xcassets */,
+				2A0C8522295241CE0046A669 /* Preview Content */,
+			);
+			path = MiniHoopla;
+			sourceTree = "<group>";
+		};
+		2A0C8522295241CE0046A669 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C8523295241CE0046A669 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A0C852C295241CF0046A669 /* MiniHooplaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C857829525B650046A669 /* MockNetworkSession.swift */,
+				2A0C857B29525DC90046A669 /* TestMoviesProcessor.swift */,
+			);
+			path = MiniHooplaTests;
+			sourceTree = "<group>";
+		};
+		2A0C8546295241DE0046A669 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C8553295243850046A669 /* Movie.swift */,
+				2A0C8568295249FA0046A669 /* AlertDetails.swift */,
+				2A0C8575295252D30046A669 /* MovieDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2A0C8547295241E40046A669 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C851E295241CC0046A669 /* MovieCollection.swift */,
+				2A0C856F29524CB90046A669 /* MovieCell.swift */,
+				2A0C8572295252890046A669 /* MovieDetails.swift */,
+				2A0C856B29524A2E0046A669 /* CustomView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2A0C8548295241E90046A669 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C8550295243460046A669 /* MoviesProcessor.swift */,
+				2A0C8565295249CB0046A669 /* AppState.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2A0C8549295242CD0046A669 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C854A295242E00046A669 /* NetworkInterfaces.swift */,
+				2A0C854D295243080046A669 /* NetworkSession.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		2A0C85562952447C0046A669 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C8558295244B50046A669 /* ImageRepoInterfaces.swift */,
+				2A0C855B295244D90046A669 /* ImageRepo.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		2A0C8561295246140046A669 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C85622952463E0046A669 /* URLComponent+APIBuilder.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		2A0C856B29524A2E0046A669 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				2A0C856C29524A3F0046A669 /* SpinnerView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		2D752F266E23F8187AA0BD5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61A65391313B95E41EEA7DEF /* Pods-MiniHoopla.debug.xcconfig */,
+				8C50309E7EA0929D64D6B6DA /* Pods-MiniHoopla.release.xcconfig */,
+				CFBA5E24F90FF80120748BA3 /* Pods-MiniHoopla-MiniHooplaTests.debug.xcconfig */,
+				7DE0F8D39239CD1694BE4247 /* Pods-MiniHoopla-MiniHooplaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7401EA06CD73393930041E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB0224CAB388C2DD23D626FF /* libPods-MiniHoopla.a */,
+				EBC00622CBA34BF2DBC9511D /* libPods-MiniHoopla-MiniHooplaTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A0C8518295241CC0046A669 /* MiniHoopla */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0C853D295241CF0046A669 /* Build configuration list for PBXNativeTarget "MiniHoopla" */;
+			buildPhases = (
+				4BDB77E58634B1CFD4609E02 /* [CP] Check Pods Manifest.lock */,
+				2A0C8515295241CC0046A669 /* Sources */,
+				2A0C8516295241CC0046A669 /* Frameworks */,
+				2A0C8517295241CC0046A669 /* Resources */,
+				2A0C85802952661E0046A669 /* Swiftlint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiniHoopla;
+			productName = MiniHoopla;
+			productReference = 2A0C8519295241CC0046A669 /* MiniHoopla.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A0C8528295241CF0046A669 /* MiniHooplaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A0C8540295241CF0046A669 /* Build configuration list for PBXNativeTarget "MiniHooplaTests" */;
+			buildPhases = (
+				E36CF9328EB01F793ECE249F /* [CP] Check Pods Manifest.lock */,
+				2A0C8525295241CF0046A669 /* Sources */,
+				2A0C8526295241CF0046A669 /* Frameworks */,
+				2A0C8527295241CF0046A669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0C852B295241CF0046A669 /* PBXTargetDependency */,
+			);
+			name = MiniHooplaTests;
+			productName = MiniHooplaTests;
+			productReference = 2A0C8529295241CF0046A669 /* MiniHooplaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A0C8511295241CC0046A669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2A0C8518295241CC0046A669 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2A0C8528295241CF0046A669 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2A0C8518295241CC0046A669;
+					};
+				};
+			};
+			buildConfigurationList = 2A0C8514295241CC0046A669 /* Build configuration list for PBXProject "MiniHoopla" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A0C8510295241CC0046A669;
+			productRefGroup = 2A0C851A295241CC0046A669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A0C8518295241CC0046A669 /* MiniHoopla */,
+				2A0C8528295241CF0046A669 /* MiniHooplaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A0C8517295241CC0046A669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0C857E295265280046A669 /* README.md in Resources */,
+				2A0C8524295241CE0046A669 /* Preview Assets.xcassets in Resources */,
+				2A0C8521295241CE0046A669 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0C8527295241CF0046A669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0C857F295265280046A669 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A0C85802952661E0046A669 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+		4BDB77E58634B1CFD4609E02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniHoopla-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36CF9328EB01F793ECE249F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiniHoopla-MiniHooplaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A0C8515295241CC0046A669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0C857029524CB90046A669 /* MovieCell.swift in Sources */,
+				2A0C851F295241CC0046A669 /* MovieCollection.swift in Sources */,
+				2A0C856D29524A3F0046A669 /* SpinnerView.swift in Sources */,
+				2A0C854E295243080046A669 /* NetworkSession.swift in Sources */,
+				2A0C85632952463E0046A669 /* URLComponent+APIBuilder.swift in Sources */,
+				2A0C857929525B650046A669 /* MockNetworkSession.swift in Sources */,
+				2A0C8569295249FA0046A669 /* AlertDetails.swift in Sources */,
+				2A0C8554295243850046A669 /* Movie.swift in Sources */,
+				2A0C855C295244D90046A669 /* ImageRepo.swift in Sources */,
+				2A0C851D295241CC0046A669 /* MiniHooplaApp.swift in Sources */,
+				2A0C8566295249CB0046A669 /* AppState.swift in Sources */,
+				2A0C854B295242E00046A669 /* NetworkInterfaces.swift in Sources */,
+				2A0C8551295243460046A669 /* MoviesProcessor.swift in Sources */,
+				2A0C8573295252890046A669 /* MovieDetails.swift in Sources */,
+				2A0C8559295244B50046A669 /* ImageRepoInterfaces.swift in Sources */,
+				2A0C855F2952458F0046A669 /* Constants.swift in Sources */,
+				2A0C8576295252D30046A669 /* MovieDetail.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A0C8525295241CF0046A669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A0C857129524CB90046A669 /* MovieCell.swift in Sources */,
+				2A0C8574295252890046A669 /* MovieDetails.swift in Sources */,
+				2A0C854F295243080046A669 /* NetworkSession.swift in Sources */,
+				2A0C8567295249CB0046A669 /* AppState.swift in Sources */,
+				2A0C855D295244D90046A669 /* ImageRepo.swift in Sources */,
+				2A0C855A295244B50046A669 /* ImageRepoInterfaces.swift in Sources */,
+				2A0C854C295242E00046A669 /* NetworkInterfaces.swift in Sources */,
+				2A0C857C29525DC90046A669 /* TestMoviesProcessor.swift in Sources */,
+				2A0C857A29525B650046A669 /* MockNetworkSession.swift in Sources */,
+				2A0C85642952463E0046A669 /* URLComponent+APIBuilder.swift in Sources */,
+				2A0C856A295249FA0046A669 /* AlertDetails.swift in Sources */,
+				2A0C8552295243460046A669 /* MoviesProcessor.swift in Sources */,
+				2A0C8555295243850046A669 /* Movie.swift in Sources */,
+				2A0C8577295252D30046A669 /* MovieDetail.swift in Sources */,
+				2A0C856E29524A3F0046A669 /* SpinnerView.swift in Sources */,
+				2A0C85602952458F0046A669 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A0C852B295241CF0046A669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A0C8518295241CC0046A669 /* MiniHoopla */;
+			targetProxy = 2A0C852A295241CF0046A669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A0C853B295241CF0046A669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A0C853C295241CF0046A669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A0C853E295241CF0046A669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61A65391313B95E41EEA7DEF /* Pods-MiniHoopla.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniHoopla/Preview Content\"";
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.MiniHoopla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2A0C853F295241CF0046A669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C50309E7EA0929D64D6B6DA /* Pods-MiniHoopla.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MiniHoopla/Preview Content\"";
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.MiniHoopla;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		2A0C8541295241CF0046A669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFBA5E24F90FF80120748BA3 /* Pods-MiniHoopla-MiniHooplaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.MiniHooplaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniHoopla.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MiniHoopla";
+			};
+			name = Debug;
+		};
+		2A0C8542295241CF0046A669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE0F8D39239CD1694BE4247 /* Pods-MiniHoopla-MiniHooplaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R97P94E2EN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.MiniHooplaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MiniHoopla.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MiniHoopla";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A0C8514295241CC0046A669 /* Build configuration list for PBXProject "MiniHoopla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0C853B295241CF0046A669 /* Debug */,
+				2A0C853C295241CF0046A669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0C853D295241CF0046A669 /* Build configuration list for PBXNativeTarget "MiniHoopla" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0C853E295241CF0046A669 /* Debug */,
+				2A0C853F295241CF0046A669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A0C8540295241CF0046A669 /* Build configuration list for PBXNativeTarget "MiniHooplaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A0C8541295241CF0046A669 /* Debug */,
+				2A0C8542295241CF0046A669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A0C8511295241CC0046A669 /* Project object */;
+}
